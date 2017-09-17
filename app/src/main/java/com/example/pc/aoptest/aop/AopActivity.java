@@ -21,5 +21,8 @@ public class AopActivity extends AppCompatActivity {
     @NetCheck
     public void gotoDown() {
         MyLog.e("gotoDown  网络检查通过");
+
+
+
     }
 }
