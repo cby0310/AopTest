@@ -16,12 +16,18 @@ public class AopActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_main);
+
         gotoDown();
+
+
     }
 
 
     @NetCheck
     public void gotoDown() {
         MyLog.e("gotoDown  网络检查通过");
+
+
+
     }
 }
